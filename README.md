@@ -1,2 +1,13 @@
-# raffle--purchase
-尝试编写 1 元购智能合约，多人加入一个组积累份额，份额达标自动抽取获奖者
+# Sample Hardhat Project
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.ts
+```
