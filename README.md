@@ -25,3 +25,14 @@ pnpm test
 # 部署合约到本地测试网
 pnpm deploy-local
 ```
+
+```shell
+npx hardhat help
+# Test (npx hardhat test)
+pnpm test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+
+# Deploy contract
+npx hardhat run scripts/deploy.ts
+```
